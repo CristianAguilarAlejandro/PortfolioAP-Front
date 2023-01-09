@@ -1,0 +1,31 @@
+<header>
+    <nav class="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="https://argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/logo/1668983675/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(17).png" alt="logos" width="170" height="35">
+          </a>
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link redes" href="https://www.linkedin.com/in/cristian-alejandro-aguilar-86507325a/" target="_blank"> Linkedin</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link redes" href="http://wa.me/+542646313197" target="_blank">WhatsApp</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link redes" href="https://www.instagram.com/twins_of_steel/" target="_blank">Instagram</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link redes" href="https://t.me/CristianAlejandroAguilar1678" target="_blank"> Telegram</a>
+            </li>
+          </ul>
+          <ul class="nav justify-content-end">
+            <li class="nav-item" *ngIf="isLogged">
+              <button type="button" class="btn btn-outline-info"(click)="logout()" >Cerrar sesión</button>
+            </li>
+            <li class="nav-item" *ngIf="!isLogged">
+              <button type="button" class="btn btn-outline-info" routerLink="/login">Iniciar Sesión</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+</header>

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background: rgb(0,19,255);
+  background: linear-gradient(90deg, rgba(67, 41, 185, 0.685) 0%, rgba(116, 145, 214, 0.911) 23%, rgb(71, 13, 206) 95%);
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+body::-webkit-scrollbar-track {
+    background: #2c1c52da;        /* color of the tracking area */
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #2d0350d0;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+  }
