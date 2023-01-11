@@ -6,7 +6,18 @@
         <h1>Soy <span>{{persona.nombre}}</span></h1>
         <h3>{{persona.ocupacion}}</h3>
         <p>{{persona.descripcion}}</p>
-        <a href="#proyectos"><button type="button" class="btn btn-success">Ver Proyectos</button></a>
+        <!-- Example single danger button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+      Ver...
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#experiencias">Experiencias</a></li>
+      <li><a class="dropdown-item" href="#educacion">Educación</a></li>
+      <li><a class="dropdown-item" href="#habilidades">Habilidades</a></li>
+      <li><a class="dropdown-item" href="#proyectos">Proyectos</a></li>
+    </ul>
+  </div>
     </div>
 </div>
 <div class="imagen">
